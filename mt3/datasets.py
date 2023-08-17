@@ -329,7 +329,7 @@ USDX_VOCALS_CONFIG = DatasetConfig(
         'train':
             'gs://mt3-usdx/datasets/usdx_vocals/train/train.tfrecord-?????-of-00075',
         'validation':
-            'gs://mt3-usdx/datasets/usdx_vocals/test/test.tfrecord-?????-of-000026',
+            'gs://mt3-usdx/datasets/usdx_vocals/test/test.tfrecord-?????-of-00026',
     },
     features={
         'sequence': tf.io.FixedLenFeature([], dtype=tf.string),
